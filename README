@@ -1,3 +1,11 @@
+mididings modifications by G van der Kolf 2016
+
+* Using current_scene() from an init_patch now returns the correct scene number.
+* Removed the blocking of a NOTEON with velocity of zero.
+
+Original readme:
+================
+
 mididings - a MIDI router/processor based on Python
 
 Copyright (C) 2008-2014  Dominic Sacré  <dominic.sacre@gmx.de>
